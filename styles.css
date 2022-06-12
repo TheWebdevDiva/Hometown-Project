@@ -1,0 +1,106 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    color: black;
+    text-align: center;
+    
+    }
+    
+    top {
+        text-align: center;
+    }
+    
+    
+    .visit {
+        background: #1D3557;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+    .blurb {
+        background: #457B9D;
+        border-radius: 10px;
+        width: 300px;
+        height: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 8px 2px 8px;
+    }
+    
+        
+        
+        
+    
+   
+   #hero {
+       background-image: url("images/HamptonRoads.png");
+        background-size: cover;
+        padding: 10px 0 150px 0;
+        color: whitesmoke;
+        font-size: 10px;
+      }
+      
+      
+     .new-container {
+        display: flex;
+         flex-direction: column;
+         background: #F1FAEE;
+     }   
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        text-align: center;
+        background: #F1FAEE;
+     }    
+     
+       
+    .activities {
+        width: 100px;
+        margin: 10px;
+        padding: 20px;
+        font-size: 16px;
+        color: #1D3557;
+        
+     }
+img {
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+}
+
+.card {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: #1D3557;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+    display: flex;
+    }
+.avatar {
+    width: 200px;
+    height: 200px;
+   
+}
